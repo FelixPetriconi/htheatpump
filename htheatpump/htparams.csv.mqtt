@@ -1,0 +1,39 @@
+param/HC_desired, MP, 57, r-, FLOAT, 0.0, 50.0
+param/Raum_Soll, SP, 69, r-, FLOAT, 10.0, 25.0
+param/WW Normaltemp., SP, 83, r-, FLOAT, 10, 75.0
+stat/Verdichteranforderung, MP, 56, r-, INT, 0, 5
+param/Aufheiztemp, SP, 71, r-, INT, 1, 10
+sensor/Temperature_Evaporator, MP, 12, r-, FLOAT, -50.0, 30.0
+sensor/Temperature_Suction, MP, 9, r-, FLOAT, -20.0, 30.0
+sensor/Heating_Return, MP, 4, r-, FLOAT, 0.0, 70.0
+stat/Compressor_Hours, SP, 173, r-, INT, 0, 100000
+stat/Heating_Circuit_Pump, MP, 22, r-, INT, 0, 1
+sensor/Heating_Forward, MP, 3, r-, FLOAT, 0.0, 70.0
+stat/H_kWh_Perf, MP, 52, r-, FLOAT, 0, 100000.0
+sensor/Temperature_Condensation, MP, 13, r-, FLOAT, -50.0, 60.0
+sensor/Temperature_Outdoor, MP, 0, r-, FLOAT, -20.0, 40.0
+sensor/Pressure_Evaporator, MP, 21, r-, FLOAT, 0.0, 40.0
+stat/H_kWh_Used, MP, 53, r-, FLOAT, 0, 100000.0
+param/WW Minimaltemp._Hyst., SP, 86, r-, FLOAT, 0, 100000.0
+sensor/Temperature_EQ_IN, MP, 6, r-, FLOAT, -20.0, 30.0
+stat/Compressor, MP, 30, r-, INT, 0, 1
+stat/WW_kWh_Perf, MP, 54, r-, FLOAT, 0, 100000.0
+sensor/Pressure_Condensation, MP, 20, r-, FLOAT, 0.0, 18.0
+sensor/Temperature_Boiler, MP, 2, r-, FLOAT, 0.0, 70.0
+stat/EQ_Pump, MP, 24, r-, INT, 0, 1
+param/Heizgrenze, SP, 76, r-, INT, 0, 45
+stat/WW_kWh_Used, MP, 55, r-, FLOAT, 0, 100000.0
+sensor/Temperature_Fresh_Water, MP, 11, r-, FLOAT, 0.0, 70.0
+param/Betriebsart, SP, 13, r-, INT, 0, 7
+stat/Fresh_Water_Streamswitch, MP, 38, r-, INT, 0, 1
+stat/Compressor_WW_Hours, SP, 171, r-, INT, 0, 100000
+sensor/Temperature_EQ_OUT, MP, 7, r-, FLOAT, -20.0, 30.0
+param/WW Normaltemp._Hyst., SP, 84, r-, FLOAT, 0, 100000.0
+stat/Verdichter_Status, SP, 10, r-, INT, 0, 11
+stat/Fresh_Water_Pump, MP, 29, r-, INT, 0, 1
+stat/Compressor_H_Hours, SP, 172, r-, INT, 0, 100000
+stat/Stoerung, MP, 31, r-, INT, 0, 1
+stat/Fresh_Water_Pump_PWM, MP, 50, r-, INT, 0, 100
+stat/Verdichter_laeuft_seit, SP, 11, r-, INT, 0, 100000
+param/Absenktemp, SP, 72, r-, INT, -10, -1
+param/WW Minimaltemp., SP, 85, r-, FLOAT, 5, 45.0
